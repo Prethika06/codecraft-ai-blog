@@ -33,7 +33,7 @@
 
 1. Clone or download this repository.
 2. Open index.html in any modern browser to view the homepage.
-3. 3. Use the homepage links to navigate to individual articles.
+3. Use the homepage links to navigate to individual articles.
 4. All styles are handled through style.css to ensure consistency.
 
 **What I Learned**
@@ -60,7 +60,7 @@
 
 **Mobile View:**
 
-<img src="screenshots/homepage-mobile.png" alt="Mobile View" width="400">
+<img src="screenshots/homepage-mobile.png" alt="Mobile View" width="300">
 
 
 **Live Demo**
