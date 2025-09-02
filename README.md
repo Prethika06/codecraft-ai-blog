@@ -61,6 +61,9 @@
 **Mobile View:**
 
 ![Mobile View](screenshots/homepage-mobile.png)
+html
+<img src="screenshots/homepage-mobile.png" alt="Mobile View" width="400">
+
 
 **Live Demo**
 
