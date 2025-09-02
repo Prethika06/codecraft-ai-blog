@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic metadata and mobile responsiveness -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page metadata -->
+    <title>AI in Entertainment | CodeCraft Blog</title>
+
+    <meta
+      name="description"
+      content="Explore how AI is reshaping the entertainment industry with content personalization, music generation, and immersive experiences."
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Reset padding, margin and set box-sizing for all elements */
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body minimum width */
+
+      body {
+        min-width: 300px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Header styling: layout, colors, font */
+
+      header {
+        color: #2c3e50;
+        display: flex;
+        background-color: #cfdce8;
+        justify-content: space-between;
+        padding: 1em;
+        position: fixed;
+        width: 100%;
+      }
+
+      /* Header button styling */
+
+      .btn {
+        background-color: #565555;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #1c1c1c;
+      }
+      .btn:active {
+        background-color: white;
+        color: black;
+      }
+
+      /* Article container styles */
+
+      .entertainment {
+        max-width: 800px;
+        margin: 0 auto;
+
+        padding: 120px 20px;
+        background-color: #ffffff;
+        line-height: 1.6;
+      }
+
+      /* Main article title */
+
+      .entertainment h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        margin-top: 10px;
+      }
+
+      /* Article date styling */
+
+      .article-date {
+        text-align: right;
+        margin-right: 4em;
+      }
+
+      /* Section headings inside article */
+
+      .entertainment h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin: 30px 0 10px 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Paragraph text in article */
+
+      p {
+        font-size: 1.3em;
+        color: #444;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Article images */
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+
+      /* Footer styles */
+
+      footer p {
+        text-align: center;
+        font-size: 1em;
+        color: #555;
+        padding: 20px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Responsive styles for very small devices */
+
+      @media (min-width: 100px) and (max-width: 350px) {
+        html,
+        body {
+          min-width: auto;
+        }
+        header {
+          margin: 0;
+          padding: 1em 15px;
+        }
+
+        header h1 {
+          font-size: 1em;
+        }
+
+        .btn {
+          font-size: 0.7em;
+        }
+        .entertainment {
+          padding-top: 80px;
+          padding-bottom: 0;
+        }
+        .article-date {
+          margin: 10px 0;
+        }
+        .entertainment h2 {
+          font-size: 0.9em;
+        }
+
+        .entertainment img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .entertainment h3 {
+          font-size: 14px;
+        }
+
+        .entertainment p {
+          font-size: 12px;
+        }
+        footer p {
+          font-size: 0.7em;
+        }
+      }
+
+      /* Responsive styles for small to medium devices */
+
+      @media (min-width: 350px) and (max-width: 600px) {
+        header h1 {
+          font-size: 1.5em;
+        }
+
+        .btn {
+          font-size: 0.8em;
+        }
+        .entertainment {
+          padding-top: 80px;
+        }
+
+        .entertainment h2 {
+          font-size: 16px;
+        }
+
+        .entertainment img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .entertainment h3 {
+          font-size: 16px;
+        }
+
+        .entertainment p {
+          font-size: 14px;
+        }
+
+        footer {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header section with site title and navigation -->
+
+    <header>
+      <h1>CodeCraft</h1>
+      <nav>
+        <a
+          href="../index.html"
+          class="btn"
+          role="button"
+          aria-label="Back to articles"
+          >← Back to articles</a
+        >
+      </nav>
+    </header>
+    <!-- Main content: AI in Healthcare article -->
+
+    <main role="main">
+      <section class="entertainment">
+        <h2>
+          AI in Entertainment: Revolutionizing Creativity and User Experience
+        </h2>
+        <p class="article-date">By CodeCraft | August 28, 2025</p>
+        <img
+          src="../images/AI_Entertainment.jpeg"
+          alt="Visual representation of AI in entertainment including music, movies, and digital media elements"
+          loading="lazy"
+        />
+        <!-- Article sections -->
+
+        <h3>Introduction</h3>
+        <p>
+          Artificial Intelligence is transforming how content is created,
+          consumed, and recommended in the entertainment industry, offering
+          highly personalized experiences.
+        </p>
+        <h3>Personalized Recommendations</h3>
+        <p>
+          Streaming platforms like Netflix and Spotify use AI algorithms to
+          analyze user behavior and suggest movies, shows, or music tailored to
+          individual preferences.
+        </p>
+
+        <h3>Content Creation with AI</h3>
+        <p>
+          AI tools assist in generating music, scripts, animations, and even
+          deepfake videos — speeding up the creative process and opening new
+          possibilities in storytelling.
+        </p>
+
+        <h3>Gaming with AI</h3>
+        <p>
+          AI enhances gameplay by creating responsive, intelligent NPCs
+          (non-player characters), dynamic environments, and personalized
+          challenges for players.
+        </p>
+
+        <h3>Virtual Influencers and Characters</h3>
+        <p>
+          AI-generated virtual characters are being used in films,
+          advertisements, and social media, expanding the boundaries of digital
+          entertainment.
+        </p>
+
+        <h3>Conclusion</h3>
+        <p>
+          AI is not just supporting creativity — it’s becoming a co-creator.
+          From writing scripts to designing immersive gaming worlds, AI is
+          redefining the future of entertainment.
+        </p>
+      </section>
+    </main>
+    <!-- Footer with copyright info -->
+
+    <footer>
+      <p>&copy; 2025 CodeCraft</p>
+    </footer>
+  </body>
+</html>

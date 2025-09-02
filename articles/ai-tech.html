@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic metadata and mobile responsiveness -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page metadata -->
+    <title>The Impact of AI in Technology | CodeCraft Blog</title>
+
+    <meta
+      name="description"
+      content="Explore how Artificial Intelligence is transforming the tech world—from automation to innovation. Stay updated with CodeCraft Blog."
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Reset padding, margin and set box-sizing for all elements */
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body minimum width */
+
+      body {
+        min-width: 300px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Header styling: layout, colors, font */
+
+      header {
+        color: #2c3e50;
+        display: flex;
+        background-color: #cfdce8;
+        justify-content: space-between;
+        padding: 1em;
+        position: fixed;
+        width: 100%;
+      }
+
+      /* Header button styling */
+
+      .btn {
+        background-color: #565555;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #1c1c1c;
+      }
+      .btn:active {
+        background-color: white;
+        color: black;
+      }
+
+      /* Article container styles */
+
+      .tech {
+        max-width: 800px;
+        margin: 0 auto;
+
+        padding: 120px 20px;
+        background-color: #ffffff;
+        line-height: 1.6;
+      }
+
+      /* Main article title */
+
+      .tech h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        margin-top: 10px;
+      }
+
+      /* Article date styling */
+
+      .article-date {
+        text-align: right;
+        margin-right: 4em;
+      }
+
+      /* Section headings inside article */
+
+      .tech h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin: 30px 0 10px 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Paragraph text in article */
+
+      p {
+        font-size: 1.3em;
+        color: #444;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Article images */
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+
+      /* Footer styles */
+
+      footer p {
+        text-align: center;
+        font-size: 1em;
+        color: #555;
+        padding: 20px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Responsive styles for very small devices */
+
+      @media (min-width: 100px) and (max-width: 350px) {
+        html,
+        body {
+          min-width: auto;
+        }
+        header {
+          margin: 0;
+          padding: 1em 15px;
+        }
+
+        header h1 {
+          font-size: 1em;
+        }
+
+        .btn {
+          font-size: 0.7em;
+        }
+        .tech {
+          padding-top: 80px;
+          padding-bottom: 0;
+        }
+        .article-date {
+          margin: 10px 0;
+        }
+        .tech h2 {
+          font-size: 0.9em;
+        }
+
+        .tech img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .tech h3 {
+          font-size: 14px;
+        }
+
+        .tech p {
+          font-size: 12px;
+        }
+        footer p {
+          font-size: 0.7em;
+        }
+      }
+
+      /* Responsive styles for small to medium devices */
+
+      @media (min-width: 350px) and (max-width: 600px) {
+        header h1 {
+          font-size: 1.5em;
+        }
+
+        .btn {
+          font-size: 0.8em;
+        }
+        .tech {
+          padding-top: 80px;
+        }
+
+        .tech h2 {
+          font-size: 16px;
+        }
+
+        .tech img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .tech h3 {
+          font-size: 16px;
+        }
+
+        .tech p {
+          font-size: 14px;
+        }
+
+        footer {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header section with site title and navigation -->
+
+    <header>
+      <h1>CodeCraft</h1>
+      <nav>
+        <a
+          href="../index.html"
+          class="btn"
+          role="button"
+          aria-label="Back to articles"
+          >← Back to articles</a
+        >
+      </nav>
+    </header>
+    <!-- Main content: AI in Healthcare article -->
+
+    <main role="main">
+      <section class="tech">
+        <h2>AI in Technology: Redefining the Digital World</h2>
+        <p class="article-date">By CodeCraft | August 28, 2025</p>
+        <img
+          src="../images/AI_Technology.jpeg"
+          alt="Illustration of AI in modern technology applications"
+          loading="lazy"
+        />
+        <!-- Article sections -->
+
+        <h3>Introduction</h3>
+        <p>
+          Artificial Intelligence (AI) has become a core driver of innovation in
+          the technology industry. From automation to intelligent
+          decision-making, AI is redefining how digital systems operate.
+        </p>
+        <h3>Smart Devices and IoT</h3>
+        <p>
+          AI powers smart homes, wearable tech, and IoT devices by enabling them
+          to learn user patterns and respond accordingly. Voice assistants,
+          smart thermostats, and fitness trackers all utilize AI to improve user
+          experience.
+        </p>
+        <h3>Cloud Computing and AI</h3>
+        <p>
+          Cloud platforms like AWS, Azure, and Google Cloud integrate AI for
+          services such as machine learning, natural language processing, and
+          advanced analytics — making powerful AI tools accessible to developers
+          and companies.
+        </p>
+        <h3>Cybersecurity Enhancements</h3>
+        <p>
+          AI is also transforming cybersecurity. It can detect threats, predict
+          attacks, and provide real-time protection by learning from vast data
+          sets and identifying abnormal patterns faster than humans.
+        </p>
+        <h3>AI in Software Development</h3>
+        <p>
+          Code completion tools, bug detection, and automated testing are
+          becoming smarter with AI integration. This improves code quality,
+          reduces errors, and speeds up development cycles.
+        </p>
+        <h3>Conclusion</h3>
+        <p>
+          AI’s integration into technology is not just a trend — it’s the
+          future. Businesses that embrace it will lead innovation, while
+          individuals skilled in AI will shape tomorrow’s digital landscape.
+        </p>
+      </section>
+    </main>
+    <!-- Footer with copyright info -->
+
+    <footer>
+      <p>&copy; 2025 CodeCraft</p>
+    </footer>
+  </body>
+</html>

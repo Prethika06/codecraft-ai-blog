@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic metadata and mobile responsiveness -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page metadata -->
+    <title>AI in Healthcare | CodeCraft Blog</title>
+
+    <meta
+      name="description"
+      content="Explore how Artificial Intelligence is revolutionizing the healthcare industry through faster diagnoses,personalized treatments,and improved patient care."
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Reset padding, margin and set box-sizing for all elements */
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body minimum width */
+
+      body {
+        min-width: 300px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Header styling: layout, colors, font */
+
+      header {
+        color: #2c3e50;
+        display: flex;
+        background-color: #cfdce8;
+        justify-content: space-between;
+        padding: 1em;
+        position: fixed;
+        width: 100%;
+      }
+
+      /* Header button styling */
+
+      .btn {
+        background-color: #565555;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #1c1c1c;
+      }
+      .btn:active {
+        background-color: white;
+        color: black;
+      }
+
+      /* Article container styles */
+
+      .health {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 120px 20px;
+        background-color: #ffffff;
+        line-height: 1.6;
+      }
+
+      /* Main article title */
+
+      .health h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        margin-top: 10px;
+      }
+
+      /* Article date styling */
+
+      .article-date {
+        text-align: right;
+        margin-right: 4em;
+      }
+
+      /* Section headings inside article */
+
+      .health h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin: 30px 0 10px 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Paragraph text in article */
+
+      p {
+        font-size: 1.3em;
+        color: #444;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Article images */
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+
+      /* Footer styles */
+
+      footer p {
+        text-align: center;
+        font-size: 1em;
+        color: #555;
+        padding: 20px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Responsive styles for very small devices */
+
+      @media (min-width: 100px) and (max-width: 350px) {
+        html,
+        body {
+          min-width: auto;
+        }
+        header {
+          margin: 0;
+          padding: 1em 15px;
+        }
+
+        header h1 {
+          font-size: 1em;
+        }
+
+        .btn {
+          font-size: 0.7em;
+        }
+        .health {
+          padding-top: 80px;
+          padding-bottom: 0;
+        }
+        .article-date {
+          margin: 10px 0;
+        }
+
+        .health h2 {
+          font-size: 0.9em;
+        }
+
+        .health img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .health h3 {
+          font-size: 14px;
+        }
+
+        section p {
+          font-size: 12px;
+        }
+        footer p {
+          font-size: 0.7em;
+        }
+      }
+
+      /* Responsive styles for small to medium devices */
+
+      @media (min-width: 350px) and (max-width: 600px) {
+        header h1 {
+          font-size: 1.5em;
+        }
+
+        .btn {
+          font-size: 0.8em;
+        }
+        .health {
+          padding-top: 80px;
+        }
+
+        .health h2 {
+          font-size: 18px;
+        }
+
+        .health img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .health h3 {
+          font-size: 16px;
+        }
+
+        .health p {
+          font-size: 14px;
+        }
+
+        footer {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header section with site title and navigation -->
+
+    <header>
+      <h1>CodeCraft</h1>
+      <nav>
+        <a
+          href="../index.html"
+          class="btn"
+          role="button"
+          aria-label="Back to articles"
+          >← Back to articles</a
+        >
+      </nav>
+    </header>
+    <!-- Main content: AI in Healthcare article -->
+
+    <main role="main">
+      <section class="health">
+        <h2>AI in Healthcare: Revolutionizing Patient Care and Diagnosis</h2>
+        <p class="article-date">By CodeCraft | August 28, 2025</p>
+        <img
+          src="../images/AI_Healthcare.jpeg"
+          alt="Illustration representing the impact of AI in healthcare"
+          loading="lazy"
+        />
+        <!-- Article sections -->
+
+        <h3>Introduction</h3>
+        <p>
+          Artificial Intelligence (AI) is transforming the healthcare industry
+          by enhancing diagnosis, improving patient care, and streamlining
+          hospital operations. From smart wearables to predictive analytics, AI
+          is reshaping how healthcare is delivered.
+        </p>
+        <h3>AI in Diagnosis</h3>
+        <p>
+          AI-powered tools can analyze medical images like X-rays, MRIs, and CT
+          scans with remarkable accuracy, helping doctors detect diseases such
+          as cancer, pneumonia, and neurological conditions early and more
+          reliably.
+        </p>
+        <h3>Personalized Medicine</h3>
+        <p>
+          Using data from patient history and genetics, AI helps doctors tailor
+          treatments specifically to individuals. This leads to better outcomes
+          and fewer side effects.
+        </p>
+        <h3>Virtual Health Assistants</h3>
+        <p>
+          Chatbots and AI health assistants are available 24/7, helping patients
+          with symptoms, reminders for medications, or basic health guidance,
+          reducing hospital visits for minor issues.
+        </p>
+        <h3>Robotics in Surgery</h3>
+        <p>
+          AI-assisted robots are used in surgeries to increase precision, reduce
+          human error, and speed up recovery time for patients.
+        </p>
+        <h3>Conclusion</h3>
+        <p>
+          AI in healthcare is not just a trend—it’s a revolution. With its
+          ability to improve accuracy, efficiency, and access, it plays a
+          crucial role in shaping the future of global health.
+        </p>
+      </section>
+    </main>
+    <!-- Footer with copyright info -->
+
+    <footer>
+      <p>&copy; 2025 CodeCraft</p>
+    </footer>
+  </body>
+</html>

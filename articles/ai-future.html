@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic metadata and mobile responsiveness -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page metadata -->
+    <title>The Future of Artificial Intelligence | CodeCraft Blog</title>
+
+    <meta
+      name="description"
+      content="Explore future possibilities of AI—from advanced automation to ethical concerns and its impacts on everyday life. Stay informed with CodeCraft."
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Reset padding, margin and set box-sizing for all elements */
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body minimum width */
+
+      body {
+        min-width: 300px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Header styling: layout, colors, font */
+
+      header {
+        color: #2c3e50;
+        display: flex;
+        background-color: #cfdce8;
+        justify-content: space-between;
+        padding: 1em;
+        position: fixed;
+        width: 100%;
+      }
+
+      /* Header button styling */
+
+      .btn {
+        background-color: #565555;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 1em;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #1c1c1c;
+      }
+
+      .btn:active {
+        background-color: white;
+        color: black;
+      }
+
+      /* Article container styles */
+
+      .future {
+        max-width: 800px;
+        margin: 0 auto;
+
+        padding: 120px 20px;
+        background-color: #ffffff;
+        line-height: 1.6;
+      }
+
+      /* Main article title */
+
+      .future h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color: #555;
+        margin-top: 10px;
+      }
+
+      /* Article date styling */
+
+      .article-date {
+        text-align: right;
+        margin-right: 4em;
+      }
+
+      /* Section headings inside article */
+
+      .future h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin: 30px 0 10px 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Paragraph text in article */
+
+      p {
+        font-size: 1.3em;
+        color: #444;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Article images */
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+
+      /* Footer styles */
+
+      footer p {
+        text-align: center;
+        font-size: 1em;
+        color: #555;
+        padding: 20px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      /* Responsive styles for very small devices */
+
+      @media (min-width: 100px) and (max-width: 350px) {
+        html,
+        body {
+          min-width: auto;
+        }
+
+        header {
+          margin: 0;
+          padding: 1em 15px;
+        }
+
+        header h1 {
+          font-size: 1em;
+        }
+
+        .btn {
+          font-size: 0.7em;
+        }
+
+        .future {
+          padding-top: 80px;
+          padding-bottom: 0;
+        }
+
+        .article-date {
+          margin: 10px 0;
+        }
+
+        .future h2 {
+          font-size: 0.9em;
+        }
+
+        .future img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .future h3 {
+          font-size: 14px;
+        }
+
+        .future p {
+          font-size: 12px;
+        }
+
+        footer p {
+          font-size: 0.7em;
+        }
+      }
+
+      /* Responsive styles for small to medium devices */
+
+      @media (min-width: 350px) and (max-width: 600px) {
+        html,
+        body {
+          min-width: auto;
+        }
+
+        header h1 {
+          font-size: 1.5em;
+        }
+
+        .btn {
+          font-size: 0.8em;
+        }
+
+        .future {
+          padding-top: 80px;
+        }
+
+        .future h2 {
+          font-size: 16px;
+        }
+
+        .future img {
+          height: 200px;
+          margin: auto;
+        }
+
+        .future h3 {
+          font-size: 16px;
+        }
+
+        .future p {
+          font-size: 14px;
+        }
+
+        footer {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header section with site title and navigation -->
+
+    <header>
+      <h1>CodeCraft</h1>
+      <nav>
+        <a
+          href="../index.html"
+          class="btn"
+          role="button"
+          aria-label="Back to articles"
+          >← Back to articles</a
+        >
+      </nav>
+    </header>
+    <!-- Main content: AI in Healthcare article -->
+
+    <main role="main">
+      <section class="future">
+        <h2>The Future of AI: Shaping Tomorrow’s World</h2>
+        <p class="article-date">By CodeCraft | August 28, 2025</p>
+        <img
+          src="../images/AI_Future.jpeg"
+          alt="Futuristicc illustration representing the advancement of AI and its impact on society and technology"
+          loading="lazy"
+        />
+        <!-- Article sections -->
+        <h3>Introduction</h3>
+        <p>
+          Artificial Intelligence is evolving rapidly, transforming every sector
+          of society. The future of AI holds promises that could redefine how we
+          live, work, and think.
+        </p>
+
+        <h3>AI in Everyday Life</h3>
+        <p>
+          From smart homes to personalized assistants, AI will become even more
+          integrated into our daily routines — anticipating needs, saving time,
+          and enhancing convenience.
+        </p>
+
+        <h3>Autonomous Systems</h3>
+        <p>
+          Self-driving vehicles, drones, and robotics will reshape
+          transportation, logistics, and even emergency services — aiming for
+          safer and more efficient systems.
+        </p>
+
+        <h3>Superintelligent AI</h3>
+        <p>
+          Research is moving toward Artificial General Intelligence (AGI) —
+          machines that can perform any cognitive task a human can. It raises
+          powerful possibilities and serious ethical questions.
+        </p>
+
+        <h3>AI & Human Collaboration</h3>
+        <p>
+          As AI gains power, global regulations will be essential to manage
+          bias, data privacy, and accountability. A responsible approach is key
+          to a safe AI future.
+        </p>
+
+        <h3>Conclusion</h3>
+        <p>
+          The future of AI is both exciting and uncertain. With careful
+          innovation, ethical design, and human-centered goals, AI can be a
+          force for positive change across the world.
+        </p>
+      </section>
+    </main>
+    <!-- Footer with copyright info -->
+
+    <footer>
+      <p>&copy; 2025 CodeCraft</p>
+    </footer>
+  </body>
+</html>
